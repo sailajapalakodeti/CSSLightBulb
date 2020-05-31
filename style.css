@@ -1,0 +1,127 @@
+.container
+{
+    width: 400px; /* size of container */
+    height: 500px;
+    background-size: 400px; /* you may need to play around with the sizing to fit container */
+    background-repeat: no-repeat;
+    /*border: 10px solid black;   so you can see your canavas */
+    position: relative; /* important for positioning*/
+}
+
+.top {
+    /* size */
+    width: 70%;
+    height: 55%;
+    /* position */
+    position: absolute;
+    /* insert image to trace */
+    left: 15%;
+    top: 4%;
+    /* shape */
+    border-radius: 50%;
+    /* to help you trace - will remove */
+    background-color: goldenrod;
+    background: radial-gradient(circle, rgba(227,228,47,1) 48%, rgba(250,170,30,1) 100%);
+    opacity: 2.0;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.leftTriangle {
+    /* size */
+    width: 65%;
+    height: 55%;
+    /* position */
+    position: absolute;
+    left:-1%;
+    top: 73%;
+    /* shape */
+    border-radius: 50%;
+    /* to help you trace - will remove */
+    background-color: goldenrod;
+    background: radial-gradient(circle, rgba(227,228,47,1) 48%, rgba(250,170,30,1) 100%);
+    opacity: 0.9;
+    clip-path: polygon(19% 17%, 50% 62%, 98% 63%);
+}
+
+
+.rightTriangle {
+    /* size */
+    width: 60%;
+    height: 55%;
+    /* position */
+    position: absolute;
+    left:38%;
+    top: 75%;
+    /* shape */
+    border-radius: 50%;
+    /* to help you trace - will remove */
+    background-color: goldenrod;
+    background: radial-gradient(circle, rgba(237,235,54,1) 0%, rgba(231,143,42,1) 89%);
+    opacity: 0.9;
+    clip-path: polygon(80% 15%, 58% 58%, 7% 60%);
+}
+
+.square {
+    /* size */
+    width: 43%;
+    height: 40%;
+    /* position */
+    position: absolute;
+    left:30%;
+    top: 99%;
+    /* to help you trace - will remove */
+    background: rgb(237,237,236);
+    background: linear-gradient(170deg, rgba(237,237,236,1) 0%, rgba(0,0,0,1) 80%, rgba(62,62,60,1) 100%);
+    opacity: 2.0;
+}
+
+.rightChevron {
+    /* size */
+    width: 43%;
+    height: 40%;
+    /* position */
+    position: absolute;
+    left:35%;
+    top: 110%;
+    /* to help you trace - will remove */
+    background-color: #607472;
+    opacity: 0.6;
+    clip-path: polygon(84% 43%, 100% 50%, 86% 55%, 0 56%, 25% 50%, 0 44%);
+}
+
+.leftChevron {
+    /* size */
+    width: 43%;
+    height: 40%;
+    /* position */
+    position: absolute;
+    left:25%;
+    top: 110%;
+    /* to help you trace - will remove */
+    background-color: #607472;
+    opacity: 0.6;
+    clip-path: polygon(95% 43%, 75% 50%, 96% 55%, 12% 56%, 0% 50%, 12% 44%);
+}
+
+.base {
+    /* size */
+    width: 60%;
+    height: 35%;
+    /* position */
+    position: absolute;
+    left:22%;
+    top: 133.5%;
+    /* to help you trace - will remove */
+    background-color: black;
+    clip-path: polygon(14% 29%, 86% 29%, 73% 47%, 31% 47%);
+}
+
+.cssLogo {
+    top: 60%;
+    left: 5%;
+    width: 95%;
+    height: 40%;
+    position: absolute;
+}
